@@ -14,12 +14,14 @@ struct Tab: Identifiable, Hashable {
     // animation properties
     var width: CGFloat = 0
     var minX: CGFloat = 0
+    // just here for demo
+    var color: Color
 }
 
 // Sample Tabs
 var tabs_: [Tab] = [
-    .init(title: "First"),
-    .init(title: "Second"),
-    .init(title: "Third"),
-    .init(title: "Fourth")
+    .init(title: "First", color: Color.black.opacity(0.2)),
+    .init(title: "Second", color: Color.blue.opacity(0.2)),
+    .init(title: "Third", color: Color.red.opacity(0.2)),
+    .init(title: "Fourth", color: Color.green.opacity(0.2))
 ]

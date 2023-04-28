@@ -12,6 +12,8 @@
 		9D7C0DA129FC5DE500650BEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0DA029FC5DE500650BEB /* Preview Assets.xcassets */; };
 		9D7C0DAB29FC5EF200650BEB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0DAA29FC5EF200650BEB /* Home.swift */; };
 		9D7C0DAD29FC5F2C00650BEB /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0DAC29FC5F2C00650BEB /* Tab.swift */; };
+		9D7C0DAF29FC637400650BEB /* ScrollOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0DAE29FC637400650BEB /* ScrollOffset.swift */; };
+		9D7C0DB129FC672900650BEB /* LinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0DB029FC672900650BEB /* LinearInterpolation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9D7C0DA029FC5DE500650BEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D7C0DAA29FC5EF200650BEB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		9D7C0DAC29FC5F2C00650BEB /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		9D7C0DAE29FC637400650BEB /* ScrollOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffset.swift; sourceTree = "<group>"; };
+		9D7C0DB029FC672900650BEB /* LinearInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearInterpolation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		9D7C0DA929FC5ECB00650BEB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				9D7C0DAE29FC637400650BEB /* ScrollOffset.swift */,
+				9D7C0DB029FC672900650BEB /* LinearInterpolation.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 			files = (
 				9D7C0DAD29FC5F2C00650BEB /* Tab.swift in Sources */,
 				9D7C0DAB29FC5EF200650BEB /* Home.swift in Sources */,
+				9D7C0DB129FC672900650BEB /* LinearInterpolation.swift in Sources */,
 				9D7C0D9A29FC5DE400650BEB /* DynamicTabsApp.swift in Sources */,
+				9D7C0DAF29FC637400650BEB /* ScrollOffset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
