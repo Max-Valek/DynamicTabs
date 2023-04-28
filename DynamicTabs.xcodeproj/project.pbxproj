@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9D7C0D9A29FC5DE400650BEB /* DynamicTabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0D9929FC5DE400650BEB /* DynamicTabsApp.swift */; };
-		9D7C0D9C29FC5DE400650BEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0D9B29FC5DE400650BEB /* ContentView.swift */; };
 		9D7C0D9E29FC5DE500650BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0D9D29FC5DE500650BEB /* Assets.xcassets */; };
 		9D7C0DA129FC5DE500650BEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0DA029FC5DE500650BEB /* Preview Assets.xcassets */; };
+		9D7C0DAB29FC5EF200650BEB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0DAA29FC5EF200650BEB /* Home.swift */; };
+		9D7C0DAD29FC5F2C00650BEB /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0DAC29FC5F2C00650BEB /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D7C0D9629FC5DE400650BEB /* DynamicTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7C0D9929FC5DE400650BEB /* DynamicTabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTabsApp.swift; sourceTree = "<group>"; };
-		9D7C0D9B29FC5DE400650BEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D7C0D9D29FC5DE500650BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D7C0DA029FC5DE500650BEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D7C0DAA29FC5EF200650BEB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9D7C0DAC29FC5F2C00650BEB /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				9D7C0D9929FC5DE400650BEB /* DynamicTabsApp.swift */,
-				9D7C0D9B29FC5DE400650BEB /* ContentView.swift */,
+				9D7C0DA929FC5ECB00650BEB /* Helpers */,
+				9D7C0DA829FC5EC800650BEB /* Model */,
+				9D7C0DA729FC5EC600650BEB /* View */,
 				9D7C0D9D29FC5DE500650BEB /* Assets.xcassets */,
 				9D7C0D9F29FC5DE500650BEB /* Preview Content */,
 			);
@@ -65,6 +69,29 @@
 				9D7C0DA029FC5DE500650BEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D7C0DA729FC5EC600650BEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D7C0DAA29FC5EF200650BEB /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D7C0DA829FC5EC800650BEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D7C0DAC29FC5F2C00650BEB /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D7C0DA929FC5ECB00650BEB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D7C0D9C29FC5DE400650BEB /* ContentView.swift in Sources */,
+				9D7C0DAD29FC5F2C00650BEB /* Tab.swift in Sources */,
+				9D7C0DAB29FC5EF200650BEB /* Home.swift in Sources */,
 				9D7C0D9A29FC5DE400650BEB /* DynamicTabsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
